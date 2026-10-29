@@ -1,6 +1,6 @@
 Object.assign(window.TP, {
 // ---------- CLUB TABLE ----------
-tableIntro: 'On Anzac Day 1924, at the Memorial Club in Bundaberg, Lawrence and Jack put objects on a cloth. Tap an object to see what it is in the story and what is real behind it. Each card keeps made-up things and real things apart.',
+tableIntro: 'On Anzac Day 1924, at the Memorial Club in Bundaberg, Lawrence put objects on the empty chair and the table, and Jack put his on the cloth. Tap an object to see what it is in the story and what is real behind it. Each card keeps made-up things and real things apart.',
 objects: [
  {
   id: 'pipe', name: 'Michael’s pipe', by: 'Lawrence',
@@ -17,14 +17,14 @@ objects: [
   id: 'pike', name: 'The pike head', by: 'Lawrence',
   prologue: ['Lawrence sets down a short piece of dark iron, leaf-shaped, with a socket at one end. The family calls it a pike head from the old Gahan forge at Old Ross. Nobody could be sure it was.'],
   real: [
-   'A pike is a long pole with a sharp iron head. In 1798 many men in County Wexford, Ireland, rose up against British rule. The Battle of Ross was fought on 5 June 1798.',
+   'A pike is a long pole with a sharp iron head. In 1798 many men in County Wexford, Ireland, rose up against British rule. The Battle of New Ross was fought on 5 June 1798.',
    'Ireland had its own parliament in Dublin, but a Lord Lieutenant chosen by the British government held the power to carry out the laws. Catholics could not sit in Parliament or hold the highest offices. Some Catholic freeholders could vote from 1793.',
-   'In spring 1798 the army, the militia and the yeomanry searched for arms, burned houses and flogged suspects. The militia and yeomanry were part-time local forces. They did most of this, not only regular soldiers. “The King’s soldiers” is how Dad tells it at the table.'
+   'In spring 1798 the militia and the yeomanry searched for arms, burned houses and flogged suspects. They were part-time local forces, not only regular soldiers. “The King’s soldiers” is how Dad tells it at the table.'
   ],
   family: ['The story of James Gahan, a blacksmith at Old Ross, mending pike heads at night is family tradition. So is the hanging of a Whitty of his wife’s family in 1799. The author found no record that proves either. No source places any Gahan at Old Ross in 1798.'],
   made: ['The iron head is a made-up object. So is George finding it in Honora’s trunk.'],
   later: { gate: 1, text: ['In Chapter One, George finds a short piece of iron wrapped in sacking at the bottom of Honora’s trunk in 1871. Honora had never said what it was. It holds the day book open on the kitchen table at Kalkie. In October 1906 Michael puts his hand flat on it and takes it off again (Entry 1.10). All of this is made up.'] },
-  image: { src: 'images/battle-of-ross.jpg', alt: 'A black and white print. Men with long pikes charge from the left. Soldiers in tall hats stand beside a cannon. Smoke fills the street. Two bodies lie on the ground.', cap: 'The Battle of Ross, County Wexford, 5 June 1798, as imagined by George Cruikshank in 1845. It is an illustration, not a picture made at the time.', credit: 'George Cruikshank, plate in W. H. Maxwell, History of the Irish Rebellion in 1798 (London, 1845), p. 145. British Library, via Wikimedia Commons. Public domain.', warn: 'This print shows bodies on the ground.' }
+  image: { src: 'images/battle-of-ross.jpg', alt: 'A black and white print. Men with long pikes charge from the left. Soldiers in tall hats stand beside a cannon. Smoke fills the street. Two bodies lie on the ground.', cap: 'The Battle of New Ross, County Wexford, 5 June 1798, as imagined by George Cruikshank in 1845. It is an illustration, not a picture made at the time.', credit: 'George Cruikshank, plate in W. H. Maxwell, History of the Irish Rebellion in 1798 (London, 1845), p. 145. British Library, via Wikimedia Commons. Public domain.', warn: 'This print shows bodies on the ground.' }
  },
  {
   id: 'stones', name: 'Jack’s two stones', by: 'Jack',
@@ -56,7 +56,7 @@ objects: [
    'Harry is not a veteran in the story. He is turned away at the drill hall.'
   ],
   made: ['Harry, his father Nako and his mother Annie are not real. The letter is made up. So is Harry at the drill hall and at the club window.'],
-  later: { gate: 2, text: ['In Chapter Two, Harry puts on his good shirt and goes to the drill hall the week after Joseph Gahan enlists. He comes out with his hat in his hand and says, “He didn’t look up.” Later he gets work as a deckhand on a steamer out of Sydney and writes from the ports. All of this is made up.'] }
+  later: { gate: 2, text: ['In Chapter Two, Harry puts on his good shirt and goes to the drill hall on 22 September 1914, the day Joseph Gahan enlists. He stands in the same line as Joseph and Jack. He comes out with his hat in his hand and says, “He didn’t look up.” Later he gets work as a deckhand on a steamer out of Sydney and writes from the ports. He writes once to the Gahan boys in Egypt. Nako never reads that letter. It reaches Lawrence, and he keeps it. All of this is made up.'] }
  },
  {
   id: 'cutting', name: 'Joseph’s newspaper photo', by: 'Lawrence',
@@ -92,7 +92,7 @@ topics: [
    ['c1', 'P', 'Entry 1.4, police occurrence', 'Reported by M. Gahan, Kalkie: two Pacific Island labourers absent from employment since the previous night. Believed absconded to avoid deportation. Search made. No trace. No arrests.'],
    ['c2', 'N', 'Entry 2.4, to the constable', 'Two men came to my door in the night. They did not come in. They said they were going home.'],
    ['c3', 'K', 'Entry 3.7, the count at the crossing', 'Five went down. Three came back. Two went on.'],
-   ['c4', 'P', 'Entry 3.6, shipping list', '7 expected 9. On 2 January the ship took seven men from Kalkie.'],
+   ['c4', 'P', 'Entry 3.6 and Chapter Three, shipping list', '7 expected 9. On 2 January the ship took seven men from Kalkie.'],
    ['c5', 'D', '30 December', '5 to the creek. 3 back.']
   ],
   book: [
@@ -106,7 +106,7 @@ topics: [
   id: 'feet', title: 'How long did it take?', ask: 'Michael heard feet come up through the cane. The Keeper says what he did first. Which two statements do not fit together in time?',
   cards: [
    ['f1', 'M', 'Chapter One, the incident', 'Below the store shed he heard voices in a language he didn’t speak. Then someone splashed. A sharp cry, cut off. Then nothing but the creek. Bare feet came up through the cane, wet, slapping, more than one. They passed the corner of the house and went toward the barracks. A tin door scraped.'],
-   ['f2', 'K', 'Chapter Three, the incident', 'He took them up the old path in the dark. At the stony ground he stopped and showed them where to put their feet. At the top he turned them so that they faced the way they were going. They went. He listened until he could not hear them. He counted. Two.'],
+   ['f2', 'K', 'Chapter Three, the incident', 'He took them up the old path in the dark. At the stony ground he stopped and showed them where to put their feet. At the top he turned them so that they faced the way they were going. … They went. He listened until he could not hear them. He counted. Two.'],
    ['f3', 'K', 'Chapter Three, the incident', 'He went back down and walked the three men up through the cane to the barracks. The tin door scraped. They went in.']
   ],
   book: [

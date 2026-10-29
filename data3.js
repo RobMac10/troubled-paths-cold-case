@@ -146,7 +146,7 @@ records: {
    {
     h: 'Ireland, 1798',
     real: [
-     'See the pike head on the Club table for the causes of the 1798 rising and the Battle of Ross on 5 June 1798.'
+     'See the pike head on the Club table for the causes of the 1798 rising and the Battle of New Ross on 5 June 1798.'
     ],
     family: ['James Gahan the blacksmith at Old Ross, the pikes and the hanging of a Whitty in 1799 are family tradition. There is no record to prove them.']
    }
@@ -167,8 +167,8 @@ teacherNotes: [
 ],
 questions: [
  { h: 'After the Prologue', q: [
-  'Jack is let through the door on Anzac Day and on no other day. Which law does the book name as the reason? Say which Act and what it made a crime.',
-  'Joseph and Jack stood in the same line in 1914. One was taken and one was turned away. What reason was given? What does that tell you about the Defence Act rule?',
+  'Jack is let through the door on Anzac Day and on no other day. The prologue says Queensland law. Behind the Story names the Act. Say which Act and what it made a crime.',
+  'Joseph, Jack and Harry stood in the same line outside the drill hall in 1914. Joseph was taken. Jack and Harry were turned away. What reason was given to Jack? What does that tell you about the Defence Act rule?',
   'Harry has no ribbon and stands outside the window. Name one way his position is the same as Jack’s and one way it is different. Use facts from the prologue.',
   'The pike head is family tradition. What is the difference between a family tradition and a record? What can each tell us?'
  ]},
@@ -222,7 +222,7 @@ writing: {
 credits: [
  ['Light Horse resting at Mahadat, Sinai, September 1916', 'Australian War Memorial H16043. “Copyright expired – public domain.” Donor: Miss D. Traill. Used in the Map section.'],
  ['Hotel Bundaberg, Quay Street, 28 September 1922', 'Unknown photographer, John Oxley Library, State Library of Queensland (IE219649). Via Wikimedia Commons, public domain (PD-Australia).'],
- ['The Battle of Ross, 1845 print', 'George Cruikshank, plate in W. H. Maxwell, History of the Irish Rebellion in 1798 (London, 1845), p. 145. British Library, Mechanical Curator collection, via Wikimedia Commons. Public domain.'],
+ ['The Battle of New Ross, 1845 print', 'George Cruikshank, plate in W. H. Maxwell, History of the Irish Rebellion in 1798 (London, 1845), p. 145. British Library, Mechanical Curator collection, via Wikimedia Commons. Public domain.'],
  ['5th Light Horse Regiment awaiting orders in the Middle East', 'Unknown photographer, 1914–1918, John Oxley Library, State Library of Queensland. Via Wikimedia Commons. Public domain.'],
  ['South Sea Islanders on the deck of a ship arriving at Bundaberg, 1895', 'R. J. Cottell, published in Pugh’s Almanac, 1895, John Oxley Library, State Library of Queensland. Via Wikimedia Commons. Public domain.'],
  ['Map outlines', 'Natural Earth, public domain (naturalearthdata.com). Routes and markers drawn for this app.']

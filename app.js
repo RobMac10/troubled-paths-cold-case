@@ -40,7 +40,7 @@ screens.home=()=>{
  '<section class="care" aria-labelledby="carehd"><h2 id="carehd">Before you start</h2><p>'+esc(T.content)+'</p>'+P(T.care)+'<p><a href="#/about">Read the acknowledgement and credits</a></p></section>'+
  '<h2>How to use this app</h2><p>The app keeps spoilers back. Each part opens when you say you have finished the chapter in the book. Nobody checks. It is your choice, and it works best if you read first.</p><ol class="steps">'+T.readingPath.map(s=>'<li>'+esc(s[0])+'<small>'+esc(s[1])+'</small></li>').join('')+'</ol>'+
  '<div class="status" aria-label="Your progress"><span class="'+(nW==3?'done':'')+'">Witness files unlocked: '+nW+' of 3</span><span class="'+(nT==T.topics.length?'done':'')+'">Board questions locked in: '+nT+' of '+T.topics.length+'</span></div>'+
- '<h2>Real and made up</h2><p>Every card in this app keeps these apart.</p><p>'+badge('real')+'A record, a law or a fact checked against a published source.</p><p>'+badge('made')+'Made up for the story, like the characters and the night of 30 December 1906.</p><p>'+badge('family')+'A story the family tells, with no paper to prove it.</p><p>'+badge('check')+'Something the author is still checking.</p>'+
+ '<h2>Real and made up</h2><p>Every card in this app keeps these apart.</p><p>'+badge('real')+'A record, a law or a fact checked against a published source.</p><p>'+badge('made')+'Made up for the story, like most of the characters and the night of 30 December 1906. Michael Gahan was a real man, but his 1906 scenes are made up.</p><p>'+badge('family')+'A story the family tells, with no paper to prove it.</p><p>'+badge('check')+'Something the author is still checking.</p>'+
  '<div class="grid c2"><a class="btn dark" href="#/witnesses/1">Open the witness files</a><a class="btn" href="#/table">Look at the club table</a></div>';
 };
 
@@ -80,7 +80,7 @@ screens.table=(arg)=>{
  const o=objById(arg);
  if(!o){
   const grp=(who)=>T.objects.filter(x=>x.by==who).map(x=>'<a class="obj" href="#/table/'+x.id+'">'+ICON[x.id]+'<div><b>'+esc(x.name)+'</b><span>Tap to open</span></div></a>').join('');
-  return '<h1>The club table</h1><p class="lead">'+esc(T.tableIntro)+'</p><div class="cloth"><h2>Lawrence put these on the cloth</h2><div class="grid c2">'+grp('Lawrence')+'</div><h2>Jack put these on the cloth</h2><div class="grid c2">'+grp('Jack')+'</div></div><p class="note">Bundaberg, 25 April 1924. The Memorial Baths and Club Rooms, Quay Street, were real. The gathering at the table is made up.</p>';
+  return '<h1>The club table</h1><p class="lead">'+esc(T.tableIntro)+'</p><div class="cloth"><h2>Lawrence put these on the chair and the table</h2><div class="grid c2">'+grp('Lawrence')+'</div><h2>Jack put these on the cloth</h2><div class="grid c2">'+grp('Jack')+'</div></div><p class="note">Bundaberg, 25 April 1924. The Memorial Baths and Club Rooms, Quay Street, were real. The gathering at the table is made up.</p>';
  }
  const i=T.objects.indexOf(o),pv=T.objects[(i+T.objects.length-1)%T.objects.length],nx=T.objects[(i+1)%T.objects.length];
  let h='<p><a href="#/table">&larr; Back to the table</a></p><h1>'+esc(o.name)+'</h1><p class="lead">Put on the table by '+esc(o.by)+'.</p>'+
@@ -223,7 +223,7 @@ screens.about=()=>
  '<h1>About</h1><p class="lead">A companion to <em>Troubled Paths on Ancient Ground</em> by Robin McKean, Perth, Western Australia. For readers 12 and older.</p>'+
  '<section class="care" aria-labelledby="c1"><h2 id="c1">Cultural care</h2>'+P(T.care)+'<p>'+esc(T.content)+'</p></section>'+
  '<h2>Thanks and acknowledgement</h2>'+P(T.ack)+
- '<h2>Real and made up</h2><p>This app follows the book’s <em>Behind the Story</em>. Anything not marked as real is made up. The three witnesses, Daisy, Jack, Willie, Sam, the night of 30 December 1906, the day books, the police note, the shipping list, the tin and the gathering at the club in 1924 are all made up. The 1901 Act, the voting laws, Joseph Gahan’s record and the history on the Records pages are real.</p>'+
+ '<h2>Real and made up</h2><p>This app follows the book’s <em>Behind the Story</em>. Anything not marked as real is made up. Nako and the Keeper, Daisy, Jack, Willie, Sam, the night of 30 December 1906, the day books, the police note, the shipping list, the tin and the gathering at the club in 1924 are all made up. Michael Gahan was a real man, but his 1906 scenes are made up. The 1901 Act, the voting laws, Joseph Gahan’s record and the history on the Records pages are real.</p>'+
  '<h2>Pictures</h2><p>All pictures are public domain and credited. None is made by artificial intelligence.</p><ul>'+T.credits.map(c=>'<li><strong>'+esc(c[0])+'.</strong> '+esc(c[1])+'</li>').join('')+'</ul>'+
  '<h2>Still being checked</h2>'+panel('check','Open questions',T.openChecks)+
  '<h2>Privacy</h2><p>This app has no accounts, no tracking, no cookies and no adverts. Your answers are saved only in this browser on this device. Nothing is sent anywhere. Printing the case file is how you share your work. Tap “Clear my answers” at the bottom of any page to delete everything.</p>'+
