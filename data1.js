@@ -23,11 +23,11 @@ caseFile: [
  '  1. Michael Gahan, farmer and Justice of the Peace. Questioned once, briefly.',
  '  2. Nako, Islander, creek flat. Asked one question. Never asked what he knew.',
  '  3. The Keeper, tracker. Never questioned.',
- 'Also near the creek: Daisy, kitchen servant on a permit. Never asked. She kept a tin.'
+ 'Also near the creek: Daisy, kitchen servant on a permit. Never asked. She kept potential evidence … a tin.'
 ],
 summary: [
- 'On 31 December 1906 the labour agreements of the Pacific Islanders in Queensland ended by law. Under the Pacific Island Labourers Act of 1901, any Islander still in the country after that day could be put on a ship by order of the Minister, unless he could prove he was excused. A man who had come to Queensland before 1 September 1879 could ask to stay. To prove it he needed a paper saying when he came and on what ship, signed by a Justice of the Peace.',
- 'On the night of 30 December, after a storm, two men left the cutters’ barracks on Michael Gahan’s farm at Kalkie, near Bundaberg. By morning two bunks were empty. Gahan rode to Bundaberg and reported two men absent. The police note says: Believed absconded to avoid deportation. A search rode out at noon with a tracker. It lost the trail on stony ground. No one was arrested. On 2 January the ship took seven men from the district. The list had expected nine.',
+ 'On 31 December 1906 the labour agreements of the Pacific Islanders in Queensland ended by law. Under the Pacific Island Labourers Act of 1901, any Islander still in the country after that day could be put on a ship by order of the Minister, unless he could prove he was excused. A man who had come to Queensland before 1 September 1879 could ask to stay. To prove it he needed an official paper showing when he came and on what ship.',
+ 'On the night of 30 December, after a storm, two men left the cutters’ barracks on Michael Gahan’s farm at Kalkie, near Bundaberg. By morning two bunks were empty. Gahan rode to Bundaberg and reported two men absent. The police note says: Believed absconded to avoid deportation. A search party rode out at noon with a tracker. It lost the trail on stony ground. No one was arrested. On 2 January the ship took seven men from the district. The list had expected nine.',
  'That much is on the record. The rest is held by four people, and the record does not agree with them.'
 ],
 readingPath: [
@@ -72,7 +72,7 @@ witnesses: [
   real: [
    'Michael Gahan was a real man, born in Dublin in 1842 (family records). He came to Sydney on the Mangerton in 1855, took up land near Bundaberg, was a Justice of the Peace and died in 1919.',
    'The Mangerton shipping notice of July 1855, his marriage in 1886 and his name in the Commission of the Peace in the 1905 official almanac are real records.',
-   'Under the 1901 Act, a man who came before 1 September 1879 could ask to stay, and he needed a paper to prove it. That is real law. A Justice of the Peace could take a sworn statement (a declaration) and sit with another Justice on a small court bench.'
+   'Under the 1901 Act, a man who came before 1 September 1879 could ask to stay, and he needed an official paper showing when he came and on what ship. That is real law.'
   ],
   made: [
    'The night of 30 December 1906 is made up. So are the day books, the police note and the shipping list.',

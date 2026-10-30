@@ -141,7 +141,7 @@ topics: [
   id: 'trail', title: 'Did the tracker lose the trail?', ask: 'The paper and the man say different things about the trail. Which two statements clash?',
   cards: [
    ['t1', 'P', 'Entry 3.3, the constable’s note', 'Tracker lost the trail on stony ground.'],
-   ['t2', 'K', 'Chapter Three, after the incident', 'He took them to the stony ground himself. They stopped. He looked at the ground a long time, and said he had lost it. The constable said that in fifty years he had never lost one. The old man said the ground was hard.'],
+   ['t2', 'K', 'Chapter Three, after the incident', 'He took them to the stony ground himself. They stopped. He looked at the ground a long time, and said he had lost it. The constable said that in fifty years he had never lost a trail. The old man said the ground was hard.'],
    ['t3', 'K', 'Entry 3.2, the print', 'A bare print, sharp in the mud beside the track. The constable asked whose it was. Mine. This morning.']
   ],
   book: [
