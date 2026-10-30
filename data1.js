@@ -26,7 +26,7 @@ caseFile: [
  'Also near the creek: Daisy, kitchen servant on a permit. Never asked. She kept a tin.'
 ],
 summary: [
- 'On 31 December 1906 the labour agreements of the Pacific Islanders in Queensland ended by law. Under the Pacific Island Labourers Act of 1901, any Islander still in the country after that day could be put on a ship by order of the Minister, unless he could prove he was excused. A man who had come to Queensland before 1 September 1879 could ask to stay. To prove it he needed a paper.',
+ 'On 31 December 1906 the labour agreements of the Pacific Islanders in Queensland ended by law. Under the Pacific Island Labourers Act of 1901, any Islander still in the country after that day could be put on a ship by order of the Minister, unless he could prove he was excused. A man who had come to Queensland before 1 September 1879 could ask to stay. To prove it he needed a paper saying when he came and on what ship, signed by a Justice of the Peace.',
  'On the night of 30 December, after a storm, two men left the cutters’ barracks on Michael Gahan’s farm at Kalkie, near Bundaberg. By morning two bunks were empty. Gahan rode to Bundaberg and reported two men absent. The police note says: Believed absconded to avoid deportation. A search rode out at noon with a tracker. It lost the trail on stony ground. No one was arrested. On 2 January the ship took seven men from the district. The list had expected nine.',
  'That much is on the record. The rest is held by four people, and the record does not agree with them.'
 ],
