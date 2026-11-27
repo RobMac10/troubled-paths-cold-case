@@ -34,7 +34,7 @@ const screens={};
 
 screens.home=()=>{
  const nW=[1,2,3].filter(unlocked).length,nT=T.topics.filter(t=>topicDone(t.id)).length;
- return '<h1>Case file</h1><p class="lead">A companion to the novel <em>Troubled Paths on Ancient Ground</em> by Robin McKean. Read the book. Use this app to look at the evidence.</p>'+
+ return '<h1>Case file</h1><p class="lead">A companion to the novel <em>Troubled Paths on Ancient Ground</em>. Read the book. Use this app to look at the evidence.</p>'+
  typed(T.caseFile)+
  '<h2>The case</h2>'+P(T.summary)+
  '<section class="care" aria-labelledby="carehd"><h2 id="carehd">Before you start</h2><p>'+esc(T.content)+'</p>'+P(T.care)+'<p><a href="#/about">Read the acknowledgement and credits</a></p></section>'+
@@ -220,7 +220,7 @@ screens.class=()=>{
 
 /* ---------------- ABOUT ---------------- */
 screens.about=()=>
- '<h1>About</h1><p class="lead">A companion to <em>Troubled Paths on Ancient Ground</em> by Robin McKean, Perth, Western Australia. For readers 12 and older.</p>'+
+ '<h1>About</h1><p class="lead">A companion to <em>Troubled Paths on Ancient Ground</em>. For readers 12 and older.</p>'+
  '<section class="care" aria-labelledby="c1"><h2 id="c1">Cultural care</h2>'+P(T.care)+'<p>'+esc(T.content)+'</p></section>'+
  '<h2>Thanks and acknowledgement</h2>'+P(T.ack)+
  '<h2>Real and made up</h2><p>This app follows the book’s <em>Behind the Story</em>. Anything not marked as real is made up. Nako and the Keeper, Daisy, Jack, Willie, Sam, the night of 30 December 1906, the day books, the police note, the shipping list, the tin and the gathering at the club in 1924 are all made up. Michael Gahan was a real man, but his 1906 scenes are made up. The 1901 Act, the voting laws, Joseph Gahan’s record and the history on the Records pages are real.</p>'+
@@ -279,6 +279,6 @@ document.addEventListener('input',e=>{
  else if(d.layer){(st._layers=st._layers||{m:true,l:true})[d.layer]=e.target.checked;save();rerender('[data-layer="'+d.layer+'"]');}
 });
 window.addEventListener('beforeprint',buildPrint);
-document.getElementById('foot').innerHTML='<p><strong>No tracking. Your answers are saved only in this browser. Nothing is sent anywhere.</strong> <button class="btn small" id="clear">Clear my answers</button></p><p>Cultural care: this book describes violence against Aboriginal people and uses words of the period. <a href="#/about">Read the care note and acknowledgement.</a></p><p>Public-domain pictures, all credited. No AI images. A companion to the novel by Robin McKean.</p>';
+document.getElementById('foot').innerHTML='<p><strong>No tracking. Your answers are saved only in this browser. Nothing is sent anywhere.</strong> <button class="btn small" id="clear">Clear my answers</button></p><p>Cultural care: this book describes violence against Aboriginal people and uses words of the period. <a href="#/about">Read the care note and acknowledgement.</a></p><p>Public-domain pictures, all credited. No AI images. A companion to the novel.</p>';
 route();
 })();

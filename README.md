@@ -1,6 +1,6 @@
 # Troubled Paths on Ancient Ground: Cold Case companion
 
-A phone-friendly web app that goes with Robin McKean's novel *Troubled Paths on Ancient Ground*. It is modelled on the Shipwrecked Cold Case app.
+A phone-friendly web app that goes with the novel *Troubled Paths on Ancient Ground*. It is modelled on the Shipwrecked Cold Case app.
 
 Live: https://robmac10.github.io/troubled-paths-cold-case/
 
@@ -15,4 +15,4 @@ Live: https://robmac10.github.io/troubled-paths-cold-case/
 Plain HTML, CSS and JavaScript. No build step, no tracking, no cookies, no accounts. Answers are kept in the browser's `localStorage` only. `tools/make_maps.py` rebuilds `maps.js` from Natural Earth outlines.
 
 ## Text and pictures
-Story text, entries and Daisy's weighing are quoted from the novel and are © Robin McKean. All pictures are public domain and credited on the About page. There are no AI images.
+Story text, entries and Daisy's weighing are quoted from the novel and are © the author. All pictures are public domain and credited on the About page. There are no AI images.

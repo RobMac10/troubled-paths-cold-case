@@ -114,7 +114,7 @@ witnesses: [
   real: [
    'Islanders were taken to Queensland from the 1860s. Many were kidnapped or tricked. Islanders did petition the King, the Governor and the Commonwealth against the 1901 Act.',
    'Sunnyside plantation on Windermere Road is on the Queensland Heritage Register. Its dry-stone road wall was built from volcanic rock cleared by Pacific Islander labour. In July 1893 seven Islanders there told the Inspector they were not given enough food, after they burned a hut and set fire to cane. The Inspector agreed the food was too little.',
-   'The Queensland Kanaka Mission began at Fairymead, near Bundaberg, with Sunday classes and river baptisms. The Mayor of Bundaberg apologised to the Islander community on 30 July 2021.'
+   'The Queensland Kanaka Mission (that was its name at the time; “Kanaka” is now an offensive word for South Sea Islanders) began at Fairymead, near Bundaberg, with Sunday classes and river baptisms. The Mayor of Bundaberg apologised to the Islander community on 30 July 2021.'
   ],
   made: [
    'Nako, Annie and Harry are not real. They are a made-up family put together from what is recorded about the men taken by the labour trade and the families who stayed.',
